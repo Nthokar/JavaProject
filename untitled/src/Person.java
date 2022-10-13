@@ -22,4 +22,7 @@ public class Person {
 
     @Override
     public String toString() { return super.toString(); }
+
+    @Override
+    public int hashCode() { return super.hashCode(); }
 }

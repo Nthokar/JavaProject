@@ -1,7 +1,7 @@
 package Course;
 
-public class Course {
-    //todo add listOfTheme
-
+public class Course implements
+    CollectionOfExercise,
+    Exercise {
 
 }
