@@ -4,8 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36f35d26-491e-4d52-93e4-d191b956078c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/untitled/src/ParserTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/untitled/src/ParserTable.java" afterDir="false" />
+    <list default="true" id="8c5a7e6c-4f31-4aa0-8f7c-816386404284" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/data/123.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/basicprogramming_2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaProject.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/ data/basicprogramming_2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/ data/diagram.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Course/CollectionOfExercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Course/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Course/Exercise.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Course/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Course/Theme.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/DBManager.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/ParserTable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/src/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled/untitled.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +38,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2G4t23MVY4IktWU9AAlfSaiJ3iR" />
+  <component name="ProjectId" id="2GGZlRLAbPAY8pp22ay84CRO40e" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,22 +48,26 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/projects/JavaProject/untitled",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\JavaProject\data" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="36f35d26-491e-4d52-93e4-d191b956078c" name="Changes" comment="" />
-      <created>1665659474601</created>
+      <changelist id="8c5a7e6c-4f31-4aa0-8f7c-816386404284" name="Changes" comment="" />
+      <created>1666017032340</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1665659474601</updated>
-      <workItem from="1665659478940" duration="308000" />
+      <updated>1666017032340</updated>
+      <workItem from="1666017033531" duration="7673000" />
     </task>
     <servers />
   </component>
@@ -60,5 +84,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="4" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
