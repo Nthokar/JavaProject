@@ -32,8 +32,8 @@ public class ParserTable {
             }
         }
     }
-    public static HashMap<String, Task> parseTask(String[] taskNames, String[] taskValues){
-        HashMap<String,Task> tasks = new HashMap<String,Task>();
+    public static HashMap<String, Exercise> parseTask(String[] taskNames, String[] taskValues){
+        HashMap<String,Exercise> tasks = new HashMap<String,Exercise>();
         for (int i = 0; i < taskValues.length; i++){
             try{
                 int taskValue = Integer.parseInt(taskValues[i]);
