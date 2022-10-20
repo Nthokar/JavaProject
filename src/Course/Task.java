@@ -1,6 +1,6 @@
 package Course;
 
-public class Task implements Exercise{
+public final class Task implements Exercise{
     public Task(String name, int value){
         this.name = name;
         this.value = value;
