@@ -6,10 +6,9 @@ public final class Task implements Exercise{
         this.value = value;
     }
     private final String name;
+    public String getTitle() { return name; }
 
-    public String getName() { return name; }
     private final int value;
-
     public int getValue() { return value; }
 
     @Override

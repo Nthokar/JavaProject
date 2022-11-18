@@ -1,12 +1,9 @@
 import java.util.Date;
 
 public class Person {
-    private String firstname;
-    public String getFirstname() { return firstname; }
-    public void setFirstname(String firstname) { this.firstname = firstname; }
-    private String surname;
-    public String getSurname() { return surname; }
-    public void setSurname(String surname) { this.surname = surname; }
+    private String name;
+    public String getName() { return name; }
+    public void setName(String name) { this.name = name; }
 
     private String patronymic;
     public String getPatronymic() { return patronymic; }
@@ -19,6 +16,14 @@ public class Person {
     private Date birthDate;
     public Date getBirthDate() { return birthDate; }
     public void setBirthDate(Date age) { this.birthDate = birthDate; }
+
+    private String homeTown;
+
+    public String getHomeTown() {
+        return homeTown;
+    }
+
+    public void setHomeTown(String homeTown) { this.homeTown = homeTown; }
 
     @Override
     public String toString() { return super.toString(); }
