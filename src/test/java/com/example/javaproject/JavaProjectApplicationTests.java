@@ -8,6 +8,7 @@ class JavaProjectApplicationTests {
 
     @Test
     void contextLoads() {
+        StudentRepo studentRepo;
     }
 
 }

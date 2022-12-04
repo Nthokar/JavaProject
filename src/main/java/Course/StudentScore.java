@@ -1,13 +1,26 @@
 package Course;
 
+import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
+@Entity
 public class StudentScore {
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
+
     public StudentScore(Course course){
         themesScore = course.getThemes();
     }
     public String studentName;
     public String studentGroup;
 
-    public HashMap<String, Theme> themesScore = new HashMap<>();
+    @OneToMany
+    public List<Theme> themesScore = new ArrayList<>();
+
+    public StudentScore() {
+
+    }
 }

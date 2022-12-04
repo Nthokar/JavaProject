@@ -1,5 +1,7 @@
 package Course;
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 
 public class Course extends AbstractCollectionOfExercise<Theme>
         implements Exercise {
@@ -17,24 +19,16 @@ public class Course extends AbstractCollectionOfExercise<Theme>
     public int getValue() {
         return value;
     }
-    private HashMap<String, Theme> themes = new HashMap<>();
+    private List<Theme> themes = new ArrayList<>();
 
-    public HashMap<String, Theme> getThemes() {
+    public List<Theme> getThemes() {
         return themes;
     }
 
-    public void setThemes(HashMap<String, Theme> themes) {
+    public void setThemes(List<Theme> themes) {
         this.themes = themes;
     }
     public void put(Theme theme) {
-        themes.put(theme.getTitle(), theme);
-    }
-
-    public Theme get(String name) {
-        return themes.get(name);
-    }
-
-    public boolean containsKey(String name) {
-        return themes.containsKey(name);
+        themes.add(theme);
     }
 }
